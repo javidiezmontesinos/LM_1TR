@@ -7,19 +7,18 @@
 
 body{
     margin: 5vh 5%;
-    background-color: bisque;
+    background-color: rgb(18, 10, 95);
 }
 
 
 nav {
     display: flex;
     flex-direction: row;
-    background-color: lightgray;
 }
 
 a{
-    margin: 0.5em 2%;
-    height: 1.5em;
+    margin: 1em 2%;
+    height: 2em;
     width: 10%;
     text-align: center;
     text-decoration: none;
@@ -33,20 +32,23 @@ a{
 #activo{
     box-shadow: 5px 5px 5px 0 black inset;
     background-color: lightgray;
+
+}
+#cajasuperior{
+    background-color: rgb(218, 113, 15);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(255, 255, 250);
+    border-width: 5px;
+    padding: 50px;
+    text-align: center;
+    display: inline-block;
+    width: 1050px;
+    height: 100px;
 }
 
-@media screen and (max-width: 900px){
-
-    body{
-        background-color: orange;
-    }
-}
-
-@media screen and (max-width: 600px){
-
-    body{
-        background-color: black;
-        color: white;
-    }
+img.fotologo {
+    width: 1000px;
+    height: 2000px;
 }
     
