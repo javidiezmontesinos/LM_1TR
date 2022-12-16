@@ -16,15 +16,28 @@ nav {
     flex-direction: row;
 }
 
+letraI{
+    color:  lightgray;
+    text-align: center;
+    font:message-box;
+    padding-left:65px;
+
+}
+letraI2{
+    color:  lightgray;
+    text-align: center;
+    font:message-box;
+    padding-left: 500px;
+
+}
 a{
     margin: 1em 2%;
     height: 2em;
     width: 10%;
     text-align: center;
-    text-decoration: none;
+    text-decoration:solid;
     cursor: pointer;
-    font: xx-large;
-    background-color: gray;
+    font: message-box;
     box-shadow: 5px 5px 5px 0 black;
     border-radius: 0.4em;
     color: whitesmoke;
@@ -40,15 +53,43 @@ a{
     border-style: solid;
     border-color: rgb(255, 255, 250);
     border-width: 5px;
+    padding: 5px;
+    padding-left: 20px;
+    text-align: center;
+    display: inline-block;
+    width: 1750px;
+    height: 70px;
+}
+
+img.fotologo {
+    width: 120px;
+    height: 75px;
+}
+img.partidos{
+    width: 120px;
+    height: 75px;
+}
+#cajaizq {
+    background-color: rgb(15, 15, 99);
+    color: white;
+    border-style: solid;
+    border-color: rgb(255, 255, 250);
+    border-width: 5px;
+    padding: 100px;
+    text-align: center;
+    display: inline-block;
+}
+#cajader {
+    background-color: rgba(73, 231, 218, 0);
+    color: rgb(255, 255, 255);
+    border-style: solid;
+    border-color: rgb(255, 255, 250);
+    border-width: 5px;
     padding: 50px;
+    padding-left: 20px;
     text-align: center;
     display: inline-block;
     width: 1050px;
     height: 100px;
-}
-
-img.fotologo {
-    width: 1000px;
-    height: 2000px;
 }
     
