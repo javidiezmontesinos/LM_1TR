@@ -4,6 +4,9 @@
     padding: 0;
 }
 
+h3,h1,h2{
+    font: message-box;
+}
 
 body{
     margin: 5vh 5%;
@@ -20,14 +23,21 @@ letraI{
     color:  lightgray;
     text-align: center;
     font:message-box;
-    padding-left:65px;
+    padding-left:140px;
 
 }
 letraI2{
     color:  lightgray;
     text-align: center;
     font:message-box;
-    padding-left: 500px;
+    padding-left: 730px;
+
+}
+letraN{
+    color: rgb(18, 10, 95);
+    text-align: center;
+    font:message-box;
+   
 
 }
 a{
@@ -65,9 +75,21 @@ img.fotologo {
     width: 120px;
     height: 75px;
 }
-img.partidos{
-    width: 120px;
-    height: 75px;
+img.fotoSpartidos{
+    width: 125px;
+    height: 80px;
+}
+img.asamblea{
+    width: 645px;
+    height: 380px;
+}
+img.abonos{
+    width: 545px;
+    height: 580px;
+}
+.info{
+    width: 345px;
+    height: 380px;
 }
 #cajaizq {
     background-color: rgb(15, 15, 99);
@@ -75,9 +97,14 @@ img.partidos{
     border-style: solid;
     border-color: rgb(255, 255, 250);
     border-width: 5px;
-    padding: 100px;
+    padding: 5px;
+    padding-right: 5px;
     text-align: center;
     display: inline-block;
+    width: 420px;
+    height: 620px;
+
+
 }
 #cajader {
     background-color: rgba(73, 231, 218, 0);
@@ -85,11 +112,49 @@ img.partidos{
     border-style: solid;
     border-color: rgb(255, 255, 250);
     border-width: 5px;
-    padding: 50px;
-    padding-left: 20px;
-    text-align: center;
-    display: inline-block;
-    width: 1050px;
+    padding: 5px;
+    padding-left: 5px;
+    text-align:center;
+    display:inline-block;
+    width: 1325px;
+    height: 1525px;
+}
+#cajacentral{
+   
+    padding: 1px;
+    text-align:center;
+    display:flex;
+    width: 1760px;
+    height: 610px;
+    justify-content: space-around;
+}
+#noticia1{
+    background-color:  lightgray;
+    color: black;
+    
+}
+#noticia2{
+    background-color:  lightgray;
+    color: black;
+    
+}
+#noticia3{
+    background-color:  lightgray;
+    color: black;
+    
+}
+.patrocinadores{
+    width: 200px;
     height: 100px;
+    justify-content: space-between;
+    display: inline-block;
+    padding: 5px;
 }
     
+#jugador{
+    background-color:  lightgray;
+    color: black;
+    display: inline-block;
+    padding: 20px;
+    justify-content: space-around;
+}
